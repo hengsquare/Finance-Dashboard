@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+#currencySelect {
+  height: 50px;
+  width: 200px;
+  background-color: #eac46b;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.currency-converter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.converter-input {
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: large;
+
+}
+
+.converted-amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.addButton {
+  height: 55px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size:large;
+}
+
+#addResults {
+  text-align: left;
+  font-size:large;
+}
