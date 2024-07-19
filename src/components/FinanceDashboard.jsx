@@ -16,7 +16,7 @@ function FinanceDashboard() {
       +
       stockSymbol
       +
-      "&apikey=demo")
+      "&apikey=20GHGWMHJKVQL224")
       .then((res) => res.json())
       .then((data) => setPrice(data["Global Quote"]["03. high"]));
   }, []);
